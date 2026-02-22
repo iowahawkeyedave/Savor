@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velora | Restaurant Landing Page</title>
+    <meta
+      name="description"
+      content="A modern, elegant restaurant landing page template built with HTML, CSS, and vanilla JavaScript."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="#top" class="logo" aria-label="Homepage">
+          <span class="logo-mark">V</span>
+          <span class="logo-text">Velora</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reserve">Reserve</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-pad">
+        <div class="hero-image" role="img" aria-label="Elegant restaurant interior"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-content reveal">
+          <p class="eyebrow">Contemporary Dining Experience</p>
+          <h1>
+            <span>Restaurant Name</span>
+            <span class="accent">Placeholder</span>
+          </h1>
+          <p class="hero-copy">
+            Crafted flavors, warm ambiance, and a culinary journey designed for memorable evenings.
+            Replace this copy with your own story and concept.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#reserve">Book a Table</a>
+            <a class="btn btn-ghost" href="#menu">Explore Menu</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about">
+        <div class="container split-layout">
+          <div class="reveal">
+            <p class="eyebrow">About Us</p>
+            <h2>A place where flavor meets atmosphere</h2>
+            <p>
+              Velora is a placeholder concept for modern dining brands that value detail, ingredient quality,
+              and hospitality. Use this section to share your mission, chef philosophy, and what makes your
+              experience unique.
+            </p>
+            <p>
+              From seasonal tasting menus to relaxed weekend brunches, every dish is prepared to feel both
+              comforting and refined.
+            </p>
+          </div>
+          <div class="about-card reveal">
+            <h3>Opening Hours</h3>
+            <ul>
+              <li><span>Mon - Thu</span><span>5:00 PM - 10:00 PM</span></li>
+              <li><span>Fri - Sat</span><span>5:00 PM - 11:30 PM</span></li>
+              <li><span>Sunday</span><span>11:00 AM - 9:00 PM</span></li>
+            </ul>
+            <p class="muted">123 Culinary Avenue, City Name</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu section-pad" id="menu">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Menu Highlights</p>
+            <h2>Signature dishes your guests will remember</h2>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-item reveal">
+              <h3>Seared Salmon</h3>
+              <p>Citrus beurre blanc, charred broccolini, and saffron rice.</p>
+              <span class="price">$28</span>
+            </article>
+            <article class="menu-item reveal">
+              <h3>Truffle Rigatoni</h3>
+              <p>Handmade pasta, wild mushrooms, black truffle cream.</p>
+              <span class="price">$24</span>
+            </article>
+            <article class="menu-item reveal">
+              <h3>Wood-Fired Ribeye</h3>
+              <p>12oz prime ribeye, roasted garlic jus, seasonal vegetables.</p>
+              <span class="price">$39</span>
+            </article>
+            <article class="menu-item reveal">
+              <h3>Honey Fig Tart</h3>
+              <p>Buttery crust, mascarpone mousse, pistachio crumble.</p>
+              <span class="price">$14</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-pad" id="gallery">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Gallery</p>
+            <h2>Ambiance and plating moments</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="reveal"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80" alt="Restaurant dining room" /></figure>
+            <figure class="reveal"><img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=1000&q=80" alt="Chef plating dish" /></figure>
+            <figure class="reveal"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=80" alt="Beautiful plated food" /></figure>
+            <figure class="reveal"><img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1000&q=80" alt="Guests dining" /></figure>
+            <figure class="reveal"><img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=1000&q=80" alt="Cocktail close-up" /></figure>
+            <figure class="reveal"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Elegant table setup" /></figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="reservation section-pad" id="reserve">
+        <div class="container reserve-wrap">
+          <div class="reserve-copy reveal">
+            <p class="eyebrow">Reservation & Contact</p>
+            <h2>Reserve your table</h2>
+            <p>
+              Accepting reservations for dinner service and private events. For groups over 10, please mention
+              it in your message.
+            </p>
+            <ul class="contact-list">
+              <li><strong>Phone:</strong> (000) 000-0000</li>
+              <li><strong>Email:</strong> hello@yourrestaurant.com</li>
+              <li><strong>Address:</strong> 123 Culinary Avenue, City Name</li>
+            </ul>
+          </div>
+
+          <form class="reserve-form reveal" aria-label="Reservation form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Date
+              <input type="date" name="date" required />
+            </label>
+            <label>
+              Guests
+              <input type="number" name="guests" min="1" max="20" value="2" required />
+            </label>
+            <label>
+              Notes
+              <textarea name="notes" rows="4" placeholder="Special requests"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Request</button>
+            <p class="form-note" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; <span id="year"></span> Velora. All rights reserved.</p>
+        <nav class="social-links" aria-label="Social links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="TikTok">TikTok</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
