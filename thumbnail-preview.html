@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=600, height=600">
+    <title>Savor - Restaurant Landing Page Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 600px;
+            height: 600px;
+            font-family: 'Manrope', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(194, 124, 14, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(194, 124, 14, 0.1) 0%, transparent 40%);
+            pointer-events: none;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 6px 16px;
+            background: rgba(194, 124, 14, 0.2);
+            border: 1px solid rgba(194, 124, 14, 0.3);
+            border-radius: 50px;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #c27c0e;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 72px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        h1 span {
+            color: #c27c0e;
+        }
+        p {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+        .price {
+            font-size: 42px;
+            font-weight: 700;
+            color: #fff;
+        }
+        .price span {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">Template</div>
+        <h1>Savor</h1>
+        <p>Restaurant Landing Page</p>
+        <div class="price">$29</div>
+    </div>
+</body>
+</html>
